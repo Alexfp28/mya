@@ -1,5 +1,5 @@
 <script>
-import '../../assets/page.css'
+import '@/assets/page.css'
 export default {
   data() {
   },

@@ -15,7 +15,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/pages/FirstPageView.vue'),
+      component: () => import('@/views/pages/FirstPageView.vue'),
     },
     {
       path: '/SecondPage',
@@ -23,7 +23,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/pages/SecondPageView.vue'),
+      component: () => import('@/views/pages/SecondPageView.vue'),
     },
     {
       path: '/ThirdPage',
@@ -31,7 +31,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/pages/ThirdPageView.vue'),
+      component: () => import('@/views/pages/ThirdPageView.vue'),
     },
     {
       path: '/LastPage',
@@ -39,7 +39,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/pages/LastPageView.vue'),
+      component: () => import('@/views/pages/LastPageView.vue'),
     },
   ],
 })
