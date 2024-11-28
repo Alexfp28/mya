@@ -37,7 +37,7 @@ export default {
         </div>
       </div>
       <div class="card-section image-section">
-        <img src="../../../public/images/foto_benidorm.jpg" alt="Benidorm" style="width: 400px; height: 400px;" />
+        <img src="/public/images/foto_benidorm.jpg" alt="Benidorm" style="width: 400px; height: 400px;" />
       </div>
     </div>
   </div>

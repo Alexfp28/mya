@@ -37,7 +37,7 @@ export default {
         </div>
       </div>
       <div class="card-section image-section">
-        <img src="../../../public/images/foto_oropesa.jpg" alt="Oropesa" style="width: 500px; height: 500px;" />
+        <img src="/public/images/foto_oropesa.jpg" alt="Oropesa" style="width: 500px; height: 500px;" />
       </div>
     </div>
   </div>

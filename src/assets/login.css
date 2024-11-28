@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url("../../public/images/Collage.png") no-repeat center center;
+    /*background: url("/public/images/Collage.png") no-repeat center center;*/
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
     background-size: cover;
     height: 100vh;
     color: #000000;
