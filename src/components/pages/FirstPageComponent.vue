@@ -38,7 +38,7 @@ export default {
         </div>
       </div>
       <div class="card-section image-section">
-        <img src="/public/images/QLSG9716.jpg" alt="Valencia" style="width: 450px; height: 400px;" />
+        <img src="/src/images/QLSG9716.jpg" alt="Valencia" style="width: 450px; height: 400px;" />
       </div>
     </div>
   </div>

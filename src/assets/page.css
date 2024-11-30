@@ -9,19 +9,19 @@
 }
 
 .pagina-1 {
-    background-image: url('/public/images/oceanografic.jpg'); /* Imagen para la página 1 */
+    background-image: url('/src/images/oceanografic.jpg'); /* Imagen para la página 1 */
     background-size: cover;
     background-position: center;
 }
 
 .pagina-2 {
-    background-image: url('/public/images/background-oropesa.jpeg'); /* Imagen para la página 2 */
+    background-image: url('/src/images/background-oropesa.jpeg'); /* Imagen para la página 2 */
     background-size: cover;
     background-position: center;
 }
 
 .pagina-3 {
-    background-image: url('/public/images/background-benidorm.jpg'); /* Imagen para la página 3 */
+    background-image: url('/src/images/background-benidorm.jpg'); /* Imagen para la página 3 */
     background-size: cover;
     background-position: center;
 }

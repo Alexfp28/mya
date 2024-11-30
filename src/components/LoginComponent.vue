@@ -29,7 +29,7 @@ export default {
       <div class="circle"></div>
       <div class="person"></div>
       <!--      <div class="leaves"></div>-->
-      <img class="zoom" src="/public/images/token_1.png" alt=""/>
+      <img class="zoom" src="/src/images/token_1.png" alt=""/>
     </div>
     <div class="login-form">
       <h2>Bienvenida mi amor!! 💙</h2>

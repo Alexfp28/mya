@@ -32,7 +32,7 @@ export default {
         </div>
       </div>
       <div class="card-section image-section">
-        <img src="/public/images/foto_anyito.jpg" alt="Primer añito" style="width: 400px; height: 400px;" />
+        <img src="/src/images/foto_anyito.jpg" alt="Primer añito" style="width: 400px; height: 400px;" />
       </div>
     </div>
     <h3 class="main-title">💙 YA PUEDES ABRIR TU REGALITOO 💙</h3>
