@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*background: url("/public/images/Collage.png") no-repeat center center;*/
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: url("@/images/Collage.png") no-repeat center center;
+    /*background: linear-gradient(135deg, #6a11cb, #2575fc);*/
     background-size: cover;
     height: 100vh;
     color: #000000;
@@ -18,9 +18,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 102vh;
     background: rgba(0, 0, 0, 0.5); /* Filtro oscuro opcional */
     z-index: 1; /* Asegura que el filtro esté debajo del formulario */
+    overflow: hidden;
 }
 
 .illustration {

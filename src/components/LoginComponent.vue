@@ -11,7 +11,7 @@ export default {
     login() {
       if (this.username === 'miryamfg03' || this.password === '27/11/2022') {
         alert(`Estás entrando a la experiencia mi amoorr 💙`);
-        this.$router.push('/FirstPage');
+        this.$router.push('/first-page');
       } else {
         alert(`Cuidadin cuidadin, hay algo que no has puesto bieen...`)
       }
@@ -36,12 +36,12 @@ export default {
       <p>Entra con la cuenta que te he decido para poder entrar a la experiencia 😊</p>
       <form @submit.prevent="login">
         <div class="form-group">
-          <label for="username">Usuario</label>
+          <label for="username">Usuario <br>(Pista: Es igual que tu correo 'usuario@gmail.com' tu pon el apartado del usuario sin el @gmail.com)</label>
           <input id="username" v-model="username" type="text" placeholder="Introduce tu usuario mi vida" required />
         </div>
         <div class="form-group">
-          <label for="password">Contraseña</label>
-          <input id="password" v-model="password" type="password" placeholder="Introduce la contraseña que te he dado :D" required />
+          <label for="password">Contraseña <br>(Pista: Es nuestra fecha de aniversario jijij. Escribela con barras '/')</label>
+          <input id="password" v-model="password" type="password" placeholder="Introduce la contraseña :D" required />
         </div>
         <button type="submit" class="btn-login">Inicia Sesión</button>
         <div class="links">

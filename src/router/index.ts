@@ -10,7 +10,7 @@ const router = createRouter({
       component: () => import('@/views/HomeView.vue'),
     },
     {
-      path: '/FirstPage',
+      path: '/first-page',
       name: 'firstPage',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -18,7 +18,7 @@ const router = createRouter({
       component: () => import('@/views/pages/FirstPageView.vue'),
     },
     {
-      path: '/SecondPage',
+      path: '/second-page',
       name: 'secondPage',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -26,7 +26,7 @@ const router = createRouter({
       component: () => import('@/views/pages/SecondPageView.vue'),
     },
     {
-      path: '/ThirdPage',
+      path: '/third-page',
       name: 'thirdPage',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -34,7 +34,7 @@ const router = createRouter({
       component: () => import('@/views/pages/ThirdPageView.vue'),
     },
     {
-      path: '/LastPage',
+      path: '/last-page',
       name: 'lastPage',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route

@@ -6,11 +6,9 @@ export default {
   methods: {
     goBack() {
       this.$router.push('/')
-      alert(`Vas a volver a la página anterior. Redireccionando...`)
     },
     goNext(){
-      this.$router.push('/SecondPage')
-      alert(`Vas a redireccionarte a la siguiente página mi amor 💙`)
+      this.$router.push('/second-page')
     }
   },
 };
