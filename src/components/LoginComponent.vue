@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import '@/assets/login.css';
 export default {
   data() {

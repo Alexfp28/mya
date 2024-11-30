@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import '@/assets/page.css'
 export default {
   data() {
